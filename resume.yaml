@@ -1,0 +1,102 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json
+
+basics:
+  name: Cory Knox
+  label: Software Developer
+  picture: profile.png
+  email: me@coryknox.dev
+  summary: >-
+    Experienced PowerShell developer with a penchant for automation.
+    Continually looking for efficiency improvements through code.
+  profiles:
+    - network: Github
+      username: corbob
+      url: "https://github.com/corbob"
+    - network: Twitter
+      username: CoryKnox
+      url: "https://www.twitter.com/CoryKnox"
+    - network: LinkedIn
+      username: KnoxCory
+      url: "https://www.linkedin.com/in/knoxcory"
+work:
+  - company: Chocolatey Software, Inc
+    position: Junior Software Engineer
+    website: https://chocolatey.org
+    startDate: 2021-06
+    summary: >-
+      Junior Software Engineer
+    highlights:
+      - Added Intune Integration for Chocolatey licensed extension
+      - Something else...
+  - company: Kal Tire
+    position: Technical Operations Specialist
+    website: "https://www.kaltire.com"
+    startDate: 2012-08
+    endDate: 2020-07
+    summary: >-
+      Provide senior most escalation support for Kal Tire operations issues and inquiries.
+      Administer Cisco VoIP solution.
+      Package, deploy, and maintain installers for internal applications.
+      Support rugged handheld devices.
+    highlights:
+      - Implemented git workflow for internal PowerShell modules
+      - Implemented Continuous Integration/Delivery (CI/CD) workflow in organizational GitLab instance to test and deploy internal codebase
+      - Developed internal PowerShell module to administer Cisco Unified Communication Manager system
+      - Spearheaded project to relocate printing services from central server to location based server, reducing overhead impact of WAN connections
+      - Provided oversight and guidance for technology during the commissioning of newly constructed Vernon Office
+  - company: Kal Tire
+    position: Service Desk Analyst
+    website: "https://www.kaltire.com"
+    startDate: 2010-08
+    endDate: 2012-08
+    summary: >-
+      Provide initial point of contact for Kal Tire computer systems.
+    highlights:
+      - Created tool for Service Desk personnel to consistently create printer service requests
+      - Automated Active Directory account reporting
+      - Created tool to unlock and reset Active Directory user accounts
+  - company: FormaShape (A division of WhiteWater Composites Ltd.)
+    position: Systems Administrator
+    website: "https://www.formashape.com/"
+    startDate: 2008-05
+    endDate: "2010-06"
+    summary: >-
+      Primary point of contact for all technology related issues.
+      Installed, Maintained, and decommissioned all computer systems
+      (75 desktop systems and 20 server systems).
+    highlights:
+      - Enhanced internal ASP.Net ERP system
+      - Implemented ticket tracking system (Spiceworks)
+      - Utilized PowerShell to create scripts for Exchange 2007 management
+      - Leveraged VBScript to manage Hyper-V 2008 and other Windows systems
+      - Developed VB.Net application to track inventory using Symbol rugged handheld devices
+volunteer:
+  - organization: #BridgeConf
+    position: Organizer and event manager
+    website: "https://pwsh.ca/bridgeconf1"
+    startDate: 2020-03
+    endDate: 2020-05
+    summary: >-
+      #BridgeConf was a one-day single track livestreamed virtual conference event
+      for PowerShell, DevOps, and Automation.
+    highlights:
+      - Solicited presentation proposals and selected candidates via PaperCall.io
+      - Scheduled and managed multiple presenters across time zones and Zoom meetings
+      - Successfully ran 9-hour live stream
+      - Produced and uploaded resulting video to YouTube
+      - Participated in marketing campaign via social media
+      - Presented PowerShell talk "Using Show-Command to create command GUIs"
+publications:
+  - name: The PowerShell Conference Book Vol 2
+    releaseDate: 2019-09
+    publisher:  The DevOps Collective, Inc
+    website: https://leanpub.com/psconfbook2
+    summary: >-
+      Contributed chapter: "Using Show-Command to Visualize Complex Cmdlets"
+
+skills:
+  - name: Programming
+    keywords:
+      - PowerShell
+      - C#
+      - TypeScript
